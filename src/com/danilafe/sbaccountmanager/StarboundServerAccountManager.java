@@ -559,7 +559,6 @@ public class StarboundServerAccountManager extends Application {
                 //In theory this shouldn't happen.
                 System.exit(1);
             } catch (JSONException ex) {
-                //May happen if the user is a retard
                 ex.printStackTrace();
                 System.exit(1);
             }
